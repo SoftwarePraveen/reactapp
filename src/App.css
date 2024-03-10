@@ -36,3 +36,127 @@
     transform: rotate(360deg);
   }
 }
+
+.product-item{
+  display: inline-block;
+  height: 350px;
+  width: 350px;
+  border-radius: 22px;
+  border: 2px solid black;
+  margin: 2px 2px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.867);
+}
+
+.cart-Item{
+
+  min-height: 350px;
+  display: inline-block;
+  margin: 5px 5px;
+  width: 260px;
+  border: 2px solid black;
+}
+
+.cart-btn{
+  position: relative;
+  left: 650px;
+  top:12px;
+  padding: 10px;
+  width: 90px;
+  color: rgb(23, 24, 23);
+  font-weight: bold;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0px 0px 4px rgba(242, 220, 220, 0.86);
+}
+
+.home-btn{
+  position: relative;
+  left: 650px;
+  top: 20px;
+  padding: 10px;
+  width: 90px;
+  color: black;
+  font-weight: bold;
+  background-color: rgba(81, 81, 248, 0.696);
+  border-radius: 12px;
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.565);
+}
+.name-shop{
+  position: relative;
+  left: -650px;
+  font-weight: bold;
+  top: -20px;
+}
+
+.addcart-btn{
+  padding: 10px;
+  margin-left: 8px;
+  width: 140px;
+  color: black;
+  font-weight: bold;
+  background-color: rgba(17, 185, 219, 0.696);
+  border-radius: 12px;
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.565);
+}
+.addcart-btn:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.remove-btn{
+  padding: 10px;
+  width: 140px;
+  color: black;
+  font-weight: bold;
+  background-color: rgba(17, 185, 219, 0.696);
+  border-radius: 12px;
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.565);
+}
+.remove-btn:hover{
+  background-color: rgba(217, 13, 13, 0.853);
+  color:white;
+  cursor: pointer;
+}
+.home-btn:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.cart-btn:hover{
+  background-color: rgb(98, 98, 239);
+  color: white;
+  cursor: pointer;
+}
+.headers{
+  position: relative;
+  top: 20px;
+  margin-bottom: 10px;
+  height: 60px;
+  background-color: rgb(12, 11, 11);
+}
+.headers h3{
+  position: relative;
+  top: 10px;
+  color: white;
+}
+.notfoundPage{
+  padding: 10px;
+  background-color:white;
+  color: black;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.638);
+}
+.errorMessage {
+  font-size: 24px; 
+  color: black; 
+  font-weight: bold; 
+  text-align: center; 
+  margin: 20px 0; 
+  padding: 10px; 
+  border: 2px solid #171616; 
+  border-radius: 5px;  
+  background-color: #f2dede;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
